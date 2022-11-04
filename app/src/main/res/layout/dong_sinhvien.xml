@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="70dp">
+    <TextView
+        android:id="@+id/tensv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Ten sinh vien"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </TextView>
+    <ImageView
+        android:id="@+id/btnsuacp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/insert"
+        >
+    </ImageView>
+    <ImageView
+        android:id="@+id/btnxoacp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/delete"
+        >
+    </ImageView>
+</LinearLayout>
